@@ -1,0 +1,70 @@
+{
+	"code": 200,
+	"msg": "success",
+	"data": [
+		{
+			"id": 1,
+			"stuName": "张三",
+			"avatar": "loadimg/1.jpg",
+			"classInfo": "UI001期",
+			"type": "1",
+			"img": "loadimg/touxiang.jpg"
+		},
+		{
+			"id": 2,
+			"stuName": "李四",
+			"avatar": "loadimg/2.jpg",
+			"classInfo": "UI002期",
+			"type": "2",
+			"img": "loadimg/touxiang.jpg"
+		},
+		{
+			"id": 3,
+			"stuName": "王五",
+			"avatar": "loadimg/7.jpg",
+			"classInfo": "UI003期",
+			"type": "3",
+			"img": "loadimg/touxiang.jpg"
+		},
+		{
+			"id": 4,
+			"stuName": "张口",
+			"avatar": "loadimg/3.jpg",
+			"classInfo": "UI004期",
+			"type": "4",
+			"img": "loadimg/touxiang.jpg"
+		},
+		{
+			"id": 5,
+			"stuName": "老三",
+			"avatar": "loadimg/4.jpg",
+			"classInfo": "UI005期",
+			"type": "5",
+			"img": "loadimg/touxiang.jpg"
+		},
+		{
+			"id": 6,
+			"stuName": "小例子",
+			"avatar": "loadimg/5.jpg",
+			"classInfo": "UI006期",
+			"type": "6",
+			"img": "loadimg/touxiang.jpg"
+		},
+		{
+			"id": 7,
+			"stuName": "丫丫丫丫",
+			"avatar": "loadimg/6.jpg",
+			"classInfo": "UI007期",
+			"type": "7",
+			"img": "loadimg/touxiang.jpg"
+		},
+		{
+			"id": 8,
+			"stuName": "刷刷刷",
+			"avatar": "loadimg/7.jpg",
+			"classInfo": "UI008期",
+			"type": "8",
+			"img": "loadimg/touxiang.jpg"
+		}
+	]
+}

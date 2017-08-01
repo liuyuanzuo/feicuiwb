@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/feicuinews.css"/>
+		<script>"undefined"==typeof CODE_LIVE&&(!function(e){var t={nonSecure:"8123",secure:"8124"},c={nonSecure:"http://",secure:"https://"},r={nonSecure:"127.0.0.1",secure:"gapdebug.local.genuitec.com"},n="https:"===window.location.protocol?"secure":"nonSecure";script=e.createElement("script"),script.type="text/javascript",script.async=!0,script.src=c[n]+r[n]+":"+t[n]+"/codelive-assets/bundle.js",e.getElementsByTagName("head")[0].appendChild(script)}(document),CODE_LIVE=!0);</script>
+		<script src="js/jquery-1.8.3.min.js"></script>
+		<script src="js/handlebars-v4.0.10.js"></script>
+		<script id="paging-template" type="text/x-handlebars-template">
+			<ul>
+				{{#each this}}
+				<li data-id={{index}} 
+					{{#if cur}} class="cur" {{/if}}
+					{{#if clickable}} class="clickable" {{/if}}>
+					{{{text}}}
+				</li>
+				{{/each}}
+			</ul>
+		</script>
+	</head>
+	<body data-genuitec-lp-enabled="false" data-genuitec-file-id="wc1-80" data-genuitec-path="/feicuiwb/src/main/webapp/front/feicuinews.html">
+		<!--头部-->
+		<div id="header" data-genuitec-lp-enabled="false" data-genuitec-file-id="wc1-80" data-genuitec-path="/feicuiwb/src/main/webapp/front/feicuinews.html"></div>
+		
+		<!--标题-->
+		<div id="titleWrap"> 
+			<div class="title">
+				<h1>翡翠新闻</h1>
+				<p>Feicui Journalism</p>
+			</div>
+		</div>
+		
+	    <!--内容-->
+		<div id="contentWrap">
+			<div class="content  clearfix">
+				
+				<!--左导航-->
+				<div class="nav_left left">
+					<div class="nav_list nav_active">
+						官方新闻
+					</div>
+					<div class="nav_list">
+						活动公告
+					</div>
+				</div>
+				
+				<!--右边新闻-->
+				<div class="content_right left">
+					<!--新闻-->
+					<div class="news_wrap news_active">
+						
+						<div class="news_title">
+							<div class="title_left left">
+								官方新闻
+							</div>
+							<div class="title_nav right">
+								<a href="index.html">首页</a> > <a href="#">翡翠新闻</a> > <a href="#">官方新闻</a>
+							</div>
+						</div>
+						
+						<div class="news">
+							<!--新闻列表-->
+							<div class="news_list">
+								<ul><!--加载新闻--> </ul>
+							</div>
+							
+							<!--分页-->
+							<div class="paging_wrap">
+	 							<!--分页组件-->
+								<div class="paging" id="paging">
+									
+								</div>
+							</div>
+
+						</div>
+					</div>
+					
+					<!--活动公告-->
+					<div class="news_wrap ">
+						
+						<div class="news_title">
+							<div class="title_left left">
+								活动公告
+							</div>
+							<div class="title_nav right">
+								<a href="#">首页</a> > <a href="#">翡翠新闻</a> > <a href="#">活动公告</a>
+							</div>
+						</div>
+					</div>
+					
+					<!--新闻详情-->
+					<div class="news_wrap news_descript">
+						
+						<div class="news_title">
+							<div class="title_left left">
+								官方新闻
+							</div>
+							<div class="title_nav right">
+								<a href="#">首页</a> > <a href="#">翡翠新闻</a> > <a href="#">活动公告</a>
+							</div>
+						</div>
+						<div class="news_article">
+							
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		<!--尾部-->
+		<div id="footer"></div>
+		
+		<script src="js/feicuinews.js"></script>
+	</body>
+</html>
